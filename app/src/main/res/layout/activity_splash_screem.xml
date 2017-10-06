@@ -21,7 +21,7 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="30dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/fondo" />
 
@@ -29,6 +29,8 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="60dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/suma" />
     </LinearLayout>
