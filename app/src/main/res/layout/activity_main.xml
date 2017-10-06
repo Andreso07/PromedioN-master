@@ -9,13 +9,12 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
@@ -73,7 +72,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.03"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota1" />
+                        android:text="@string/nota1"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN2M1"
@@ -81,7 +81,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota2" />
+                        android:text="@string/nota2"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN3M1"
@@ -89,7 +90,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota3" />
+                        android:text="@string/nota3"
+                        android:textColor="@android:color/background_light" />
 
                 </LinearLayout>
 
@@ -104,11 +106,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:autoText="false"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN2M1"
@@ -116,10 +121,12 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN3M1"
@@ -127,10 +134,12 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
@@ -138,7 +147,8 @@
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="150dp"
-                    android:text="Def:" />
+                    android:text="Def:"
+                    android:textColor="@android:color/background_light" />
 
                 <TextView
                     android:id="@+id/tVDef1"
@@ -149,6 +159,7 @@
                     android:numeric="decimal"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -185,14 +196,16 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota1" />
+                        android:text="@string/nota1"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN2M2"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota2" />
+                        android:text="@string/nota2"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN3M2"
@@ -200,7 +213,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota3" />
+                        android:text="@string/nota3"
+                        android:textColor="@android:color/background_light" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -214,37 +228,44 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN2M2"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN3M2"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="150dp"
-                    android:text="Def:" />
+                    android:text="Def:"
+                    android:textColor="@android:color/background_light" />
 
                 <TextView
                     android:id="@+id/tVDef2"
@@ -255,6 +276,7 @@
                     android:numeric="decimal"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -290,14 +312,16 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.00"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota1" />
+                        android:text="@string/nota1"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN2M3"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota2" />
+                        android:text="@string/nota2"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN3M3"
@@ -305,7 +329,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.03"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota3" />
+                        android:text="@string/nota3"
+                        android:textColor="@android:color/background_light" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -318,30 +343,36 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN2M3"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN3M3"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -350,7 +381,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="160dp"
                     android:layout_weight="1"
-                    android:text="Def:" />
+                    android:text="Def:"
+                    android:textColor="@android:color/background_light" />
 
                 <TextView
                     android:id="@+id/tVDef3"
@@ -363,6 +395,7 @@
                     android:numeric="decimal"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -396,7 +429,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota1" />
+                        android:text="@string/nota1"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN2M4"
@@ -404,7 +438,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota2" />
+                        android:text="@string/nota2"
+                        android:textColor="@android:color/background_light" />
 
                     <TextView
                         android:id="@+id/tVN3M4"
@@ -412,7 +447,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:paddingLeft="10dp"
-                        android:text="@string/nota3" />
+                        android:text="@string/nota3"
+                        android:textColor="@android:color/background_light" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -425,37 +461,44 @@
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN2M4"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/edTN3M4"
                         android:layout_width="64dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:hint="0"
+                        android:hint="0.0"
                         android:inputType="numberDecimal"
                         android:numeric="decimal"
-                        android:paddingLeft="30dp" />
+                        android:paddingLeft="30dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="150dp"
-                    android:text="Def:" />
+                    android:text="Def:"
+                    android:textColor="@android:color/background_light" />
 
                 <TextView
                     android:id="@+id/tVDef4"
@@ -467,6 +510,7 @@
                     android:numeric="decimal"
                     android:paddingLeft="20dp"
                     android:paddingTop="10dp"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -492,10 +536,11 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="85dp"
                     android:layout_weight="1"
-                    android:hint="0"
+                    android:hint="0.0"
+                    android:textColor="@android:color/background_light"
                     android:textColorLink="@color/colorPrimaryDark"
                     android:textSize="30sp"
-                    android:textStyle="normal|bold" />
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -503,7 +548,7 @@
                 android:id="@+id/btnAcercaDe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="240dp"
+                android:layout_marginLeft="220dp"
                 android:layout_weight="1"
                 android:onClick="acercaDe"
                 android:text="@string/acerca" />
